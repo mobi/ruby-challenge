@@ -14,7 +14,7 @@ Run `rake` to execute the test
 Run `bin/console` to test code in the console before adding it to the Challenge class.
 
 ## Requirements
-Using `the Challenge` class at `lib/challenge.rb`, parse the text file at `data/timestamps.txt` and set the following class properies:
+Using the `Challenge` class at `lib/challenge.rb`, parse the text file at `data/timestamps.txt` and set the following class properies:
 1. `@earliest_date`: The earliest date in the file
 1. `@latest_date`: The latest date in the file
 1. `@peak_year`: The year that is included the most in the file
