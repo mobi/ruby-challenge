@@ -16,7 +16,7 @@ class Challenge
 
     File.open(@file_path, 'r').each do |line| # For loop to iterate through every line in timestamps.txt file 
     
-      timestamp_i = Time.xmlschema(line).to_i #converting 2022-05-30 11:56:52 -0400 into 1653926221 to reduce the runtime
+      timestamp_i = Time.xmlschema(line).to_i #converting 2022-05-30 11:56:52 -0400 into 1653926221 to reduce number off calls to Time and this will reduce the runtime
       timestamp = Time.xmlschema(line)
 
       #Logic for the earliest time in the data set
